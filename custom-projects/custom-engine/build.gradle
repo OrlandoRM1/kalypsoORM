@@ -1,8 +1,0 @@
-apply plugin: 'calypso-java-project'
-
-dependencies {
-	compile project(':custom-shared-lib')
-	provided project(":engineserver")
-}
-
-ext.deployment="engineserver"
